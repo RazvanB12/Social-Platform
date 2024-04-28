@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://c7gljno857ucsl.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dp2b3141q5acu
+    username: u5egmp343c0083
+    password: p88acbeace2956420dfe04d0df380463238442209f881ef63415461bba2018721
+    driver-class-name: org.postgresql.Driver
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: email@gmail.com         # Your Gmail address
+    email-address: email@gmail.com    # Your Gmail address
+    password: password                # Your Google secure app password

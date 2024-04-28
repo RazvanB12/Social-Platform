@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        show_sql: true
+        format_sql: true
+
+  mail:
+    reset-url: http://localhost:3000/resetPassword/ # FE URL for the reset password page
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+security:
+  jwt:
+    secret-key: 710c19a41d2c58ed0d3c50bae87fd41a0a8ab587705ed3bc6d96c5eb0ac2a852
+  token:
+    expiration-time: 86400000

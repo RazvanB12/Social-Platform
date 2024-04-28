@@ -1,0 +1,60 @@
+.users-table {
+    width: 100%; /* You can adjust the width as needed */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.users-table th, .users-table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.users-table th {
+    background-color: #f2f2f2;
+    color: #333; /* Text color for table headers */
+}
+
+.users-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.users-table tbody tr:hover {
+    background-color: #f2f2f2; /* Lighter background color on hover */
+}
+
+.users-table tbody td.active-yes {
+    background-color: #8bc34a; /* Green color for active users */
+    color: #fff; /* Text color for active users */
+}
+
+.users-table tbody td.active-no {
+    background-color: #f44336; /* Red color for inactive users */
+    color: #fff; /* Text color for inactive users */
+}
+.center {
+    text-align: center !important;
+}
+.switch-container {
+    text-align: right;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+.search-bar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+
+}
